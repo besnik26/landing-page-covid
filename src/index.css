@@ -18,16 +18,15 @@ h1{
 h3{
     font-size: 20px;
     color: #333333;
+    
 }
 
 h4{
+    font-weight: 400;
     font-size: 18px;
     color: #333333;
 }
 
-.hover-active{
-    color: #44B564;
-}
 
 .alert{
     color: #FF0000;

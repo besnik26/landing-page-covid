@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    margin-top: 55px;
+}
+h4{
+    position: relative;
+    transition: 0.2s;
+}
+h4:hover{
+    cursor: pointer;
+    color: #44B564;
+}
+h4:hover:after{
+   content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #44B564;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -11px;
+
+}
