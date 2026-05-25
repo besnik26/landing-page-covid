@@ -2,11 +2,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.virus-image{
+    position: absolute;
+    left:0px;
+    top:280px
 }
 .container{
     width: 100%;
     max-width: 1168px;
-    background-color: antiquewhite;
+    
     height: 600px;
     
 }
