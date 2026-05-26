@@ -15,15 +15,15 @@ const stats= [
     },
     {
         "id":3,
-        "title":"Doses Administered",
+        "title":"Vaccines",
         "value":"1,837,446",
-        "subtitle":"Vaccines"
+        "subtitle":"Doses Administered"
     },
     {
         "id":4,
-        "title":"People receiving at least 1 dose",
+        "title":"Vaccines",
         "value":"906,858",
-        "subtitle":"Vaccines"
+        "subtitle":"People receiving at least 1 dose"
     },
 
 ]
@@ -48,6 +48,7 @@ function Stats(){
                 <div className="location-img-div">
                     <img src="/kosovo.svg" alt="kosovo" className="kosovo-img"/>
                 </div>
+                <p className="p-card">Kosovo | Last update: November 2025</p>
             </div>
         </div>
     )

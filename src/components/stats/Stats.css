@@ -3,9 +3,37 @@
     box-shadow: 0 0 57px -7px rgba(119, 119, 119, 12%);
     margin-top: 65px;
     background-color: #ffffff;
+    padding: 40px 88px 25px 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    column-gap: 108px;
+    margin-bottom: 43px;
+
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    text-align: center;
+    max-width: 181px;
 }
 
 .kosovo-img{
     max-width: 34px;
     max-height: 22px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
 }

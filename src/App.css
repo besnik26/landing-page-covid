@@ -9,10 +9,12 @@
     left:0px;
     top:280px
 }
+.virus-right-absolute{
+    position: absolute;
+    right: 0px;
+    top: 1015px;
+}
 .container{
     width: 100%;
     max-width: 1168px;
-    
-    height: 600px;
-    
 }

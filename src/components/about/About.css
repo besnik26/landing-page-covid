@@ -1,0 +1,10 @@
+.about{
+    margin-top: 193px;
+    display: flex;
+    column-gap: 100px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+}
