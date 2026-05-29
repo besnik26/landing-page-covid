@@ -3,8 +3,42 @@
     display: flex;
     column-gap: 100px;
 }
+
+.title-div{
+    margin-bottom: 30px;
+}
+
 .title{
     font-size: 36px;
     font-weight: 600;
     color: #333333;
+    
+}
+.list-cover{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.list-div{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.contact-div{
+    position: relative;
+    padding-left: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.ellipse-abs{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.arrowImg{
+    margin-left: 10px;
 }
