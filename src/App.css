@@ -14,6 +14,18 @@
     right: 0px;
     top: 1015px;
 }
+
+.symptoms-left{
+    position: absolute;
+    left: 0px;
+    top: 2785px;
+}
+
+.symptoms-right{
+    position: absolute;
+    right: 0px;
+    top: 2993px;
+}
 .container{
     width: 100%;
     max-width: 1168px;
