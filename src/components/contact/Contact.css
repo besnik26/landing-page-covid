@@ -1,0 +1,24 @@
+.contact{
+    margin-top: 170px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 100%;
+    box-shadow:
+        0px 0px 50px -1px rgba(82, 82, 82, 0.10),
+        0px 29px 0px -14px rgba(91, 195, 120, 1),
+        0px 52px 0px -24px rgba(77, 183, 107, 1);
+
+    padding: 60px 157px 53px 157px;
+    margin-bottom: 117px;
+}
+.title{
+    font-size: 36px;
+}
+.title-div{
+    margin-bottom: 26px;
+}
+.contact-img{
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
