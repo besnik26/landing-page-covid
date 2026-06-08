@@ -1,12 +1,15 @@
 .hero{
     margin-top: 77px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 65px;
 
 }
 .alert-div{
     display: flex;
+    width: 100%;
+    justify-content: start;
     align-items: center;
     column-gap: 6px;
     margin-bottom: 2px;
@@ -14,6 +17,8 @@
 
 .hero-description{
     margin: 61px 0px;
+    text-align: start;
+    /* max-width: 540px; */
 }
 h1{
     margin-bottom: 20px;
@@ -25,7 +30,10 @@ h1{
 .hero-img{
     max-width: 548px;
     max-height: 536px;
+    width: 100%;
 }
+
+
 
 .hero-btn{
     padding: 12px 32px;
@@ -36,4 +44,29 @@ h1{
     font-weight: 500;
     border: none;
     cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero{
+        flex-direction: column-reverse;
+        
+    }
+    .alert-div{
+        justify-content: center;
+    }
+
+    .hero-img{
+        max-width: none;
+        width: 100%;
+    }
+
+    .hero-description{
+        text-align: center;
+    }
+
+
+
 }

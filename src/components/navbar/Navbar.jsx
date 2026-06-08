@@ -1,18 +1,36 @@
 import './Navbar.css'
+import { useState } from 'react'
+
+
 
 function Navbar() {
-    return (
-        <div className="navbar">
-            
-            <h4>Home</h4>
-            <h4>What we do ?</h4>
-            <h4>Prevention</h4>
-            <h4>Symptoms</h4>
-            <h4>Contact us</h4>
-            
+  const [isOpen, setIsOpen] = useState(false);
 
-        </div>
-    )
+  return (
+    <>
+      <button
+        className="hamburger"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        ☰
+      </button>
+
+      <div className={`navbar ${isOpen ? "open" : ""}`}>
+        <h4 onClick={() => setIsOpen(false)}>Home</h4>
+        <h4 onClick={() => setIsOpen(false)}>What we do ?</h4>
+        <h4 onClick={() => setIsOpen(false)}>Prevention</h4>
+        <h4 onClick={() => setIsOpen(false)}>Symptoms</h4>
+        <h4 onClick={() => setIsOpen(false)}>Contact us</h4>
+      </div>
+
+      {isOpen && (
+        <div
+          className="overlay"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;

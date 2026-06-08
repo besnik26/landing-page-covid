@@ -18,9 +18,8 @@ function Hero() {
                 <button className="hero-btn">Let us help</button>
             </div>
 
-            <div className="hero-img">
-                <img src="/hero-img.svg" alt="hero-doctor-image" />
-            </div>
+            
+                <img src="/hero-img.svg" alt="hero-doctor-image" className="hero-img" />
         </div>
     )
 }
