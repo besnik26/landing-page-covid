@@ -18,6 +18,8 @@ function App() {
       <img src="/virus-symptoms-left.png" alt="virus" className='symptoms-left' />
       <img src="/virus-symptoms-right.png" alt="virus" className='symptoms-right' />
 
+      <img src="/footer-background.png" alt="footer"  className='footer-img'/>
+
       <div className="container">
         <Navbar/>
         <Hero/>

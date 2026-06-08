@@ -10,9 +10,9 @@
 .form-div{
     display: flex;
     flex-direction: column;
-
+    width: 100%;
     row-gap: 25px;
-    max-width: 380px;
+    max-width: 420px;
 }
 
 input, textarea{

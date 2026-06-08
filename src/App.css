@@ -26,7 +26,17 @@
     right: 0px;
     top: 2993px;
 }
+
+.footer-img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    max-height: 1500px;
+}
 .container{
     width: 100%;
     max-width: 1168px;
+    z-index: 2;
 }
