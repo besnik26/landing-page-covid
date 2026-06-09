@@ -56,4 +56,8 @@ textarea{
         flex-direction: column;
         row-gap: 20px;
     }
+
+    .form-div{
+        max-width: none;
+    }
 }

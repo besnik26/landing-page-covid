@@ -34,15 +34,22 @@
     width: 100%;
     z-index: 1;
     max-height: 1500px;
+    min-height: 800px;
 }
 .container{
     width: 100%;
     max-width: 1168px;
     z-index: 2;
 }
+.abs-off{
+    display: block;
+}
 
 @media (max-width: 768px) {
     .container{
         padding: 0 16px;
+    }
+    .abs-off{
+        display: none;
     }
 }

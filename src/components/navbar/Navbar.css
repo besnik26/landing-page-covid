@@ -5,15 +5,19 @@
   column-gap: 35px;
   margin-top: 55px;
 }
-h4 {
+a {
   position: relative;
   transition: 0.2s;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+  text-decoration: none;
 }
-h4:hover {
+a:hover {
   cursor: pointer;
   color: #44b564;
 }
-h4:hover:after {
+a:hover:after {
   content: "";
   position: absolute;
   width: 6px;
@@ -33,12 +37,16 @@ h4:hover:after {
   .hamburger {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    right: 0px;
     z-index: 1001;
     font-size: 28px;
-    background: none;
+    padding: 4px 14px 6px 14px;
+    background-color: white;
+    border-radius: 0px 0px 0px 25px;
     border: none;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     cursor: pointer;
   }
 
@@ -70,7 +78,7 @@ h4:hover:after {
     z-index: 999;
   }
 
-  h4:hover:after {
+  a:hover:after {
     content: none;
     position: absolute;
     width: 6px;

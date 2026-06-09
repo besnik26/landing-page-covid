@@ -16,11 +16,21 @@ function Navbar() {
       </button>
 
       <div className={`navbar ${isOpen ? "open" : ""}`}>
-        <h4 onClick={() => setIsOpen(false)}>Home</h4>
-        <h4 onClick={() => setIsOpen(false)}>What we do ?</h4>
-        <h4 onClick={() => setIsOpen(false)}>Prevention</h4>
-        <h4 onClick={() => setIsOpen(false)}>Symptoms</h4>
-        <h4 onClick={() => setIsOpen(false)}>Contact us</h4>
+        <a 
+          href='#hero'
+          onClick={() => setIsOpen(false)}>Home</a>
+        <a 
+          href='#about'
+          onClick={() => setIsOpen(false)}>What we do ?</a>
+        <a 
+          href='#prevention'
+          onClick={() => setIsOpen(false)}>Prevention</a>
+        <a 
+          href='#symptoms'
+          onClick={() => setIsOpen(false)}>Symptoms</a>
+        <a 
+          href='#contact'
+          onClick={() => setIsOpen(false)}>Contact us</a>
       </div>
 
       {isOpen && (

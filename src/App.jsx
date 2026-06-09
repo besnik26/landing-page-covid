@@ -13,21 +13,32 @@ function App() {
 
   return (
     <div className="main">
-      <img src="/virus-photo.png" alt="virus" className="virus-image" />
-      <img src="/virus-right.svg" alt="virus"  className='virus-right-absolute'/>
-      <img src="/virus-symptoms-left.png" alt="virus" className='symptoms-left' />
-      <img src="/virus-symptoms-right.png" alt="virus" className='symptoms-right' />
-
+      <img src="/virus-photo.png" alt="virus" className="virus-image abs-off" />
+      <img src="/virus-right.svg" alt="virus"  className='virus-right-absolute abs-off'/>
+      <img src="/virus-symptoms-left.png" alt="virus" className='symptoms-left abs-off' />
+      <img src="/virus-symptoms-right.png" alt="virus" className='symptoms-right abs-off' />
       <img src="/footer-background.png" alt="footer"  className='footer-img'/>
 
       <div className="container">
         <Navbar/>
-        <Hero/>
+        <div id='hero'>
+          <Hero/>
+        </div>
+        
         <Stats/>
-        <About/>
-        <Prevention/>
-        <Symptoms/>
-        <Contact/>
+        
+        <div id='about'>
+          <About/>
+        </div>
+        <div id='prevention'>
+          <Prevention/>
+        </div>
+        <div id='symptoms'>
+          <Symptoms/>
+        </div>
+        <div id='contact'>
+          <Contact/>
+        </div>
       </div>
 
     </div>
