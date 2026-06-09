@@ -22,4 +22,12 @@
 .contact-img{
     margin-top: 50px;
     margin-bottom: 85px;
+    max-width: 547px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        padding: 30px 20px 50px 20px;
+    }
 }

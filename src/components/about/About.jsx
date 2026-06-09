@@ -30,9 +30,9 @@ const aboutList = [
 function About (){
     return (
         <div className="about">
-            <div className="about-img-div">
-                <img src="/about-photo.svg" alt="about" />
-            </div>
+            
+            <img src="/about-photo.svg" alt="about" className="about-img-div"/>
+            
             <div className="about-description">
                 <div className='title-div'>
                     <h2 className='title'>

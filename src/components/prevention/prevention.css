@@ -19,6 +19,7 @@
 .prevention-cards{
     margin-top: 110px;
     display: flex;
+    flex-direction: row;
     column-gap: 89px;
 }
 h3{
@@ -39,8 +40,6 @@ h3{
     padding: 179px 40px 25px 40px;
     position: relative;
     box-shadow: 0 0 44px -5px rgba(102, 102, 102, 0.1);
-
-
 }
 
 .card-img{
@@ -48,4 +47,11 @@ h3{
     left: 50%;
     transform: translateX(-50%);
     top: -45px;
+}
+
+@media (max-width: 768px) {
+    .prevention-cards{
+        flex-direction: column;
+        row-gap: 80px;
+    }
 }

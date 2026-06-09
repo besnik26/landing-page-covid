@@ -1,6 +1,7 @@
 .about{
     margin-top: 193px;
     display: flex;
+    flex-direction: row;
     column-gap: 100px;
 }
 
@@ -41,4 +42,16 @@
 
 .arrowImg{
     margin-left: 10px;
+}
+
+.about-img-div{
+    max-width: 556px;
+    max-height: 522px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .about{
+        flex-direction: column;
+    }
 }

@@ -57,7 +57,6 @@ function Form() {
         />
       </div>
 
-      {/* <button type="submit">Click to send</button> */}
 
       <button type="submit" className="contact-div">
         <img src="/ellipse.png" alt="ellipse" className="ellipse-abs" />
