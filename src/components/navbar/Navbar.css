@@ -54,7 +54,7 @@ a:hover:after {
     top: 0;
     right: -250px;
     width: 250px;
-    height: 100vh;
+    height: 100dvh;
     background: white;
     flex-direction: column;
     justify-content: flex-start;
@@ -75,6 +75,7 @@ a:hover:after {
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 999;
+    height: 100dvh;
   }
 
   a:hover:after {
