@@ -2,6 +2,12 @@ import "./Hero.css"
 
 
 function Hero() {
+
+    const scrollToContact = ()=>{
+        document.getElementById('contact').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
     return (
         <div className="hero">
             <div className="hero-description">
@@ -15,7 +21,7 @@ function Hero() {
                     Seque empowers you to get more done with intense focus and zero interruptions.
                     Seque empowers you to get more done with intense focus and zero interruptions.
                 </p>
-                <button className="hero-btn">Let us help</button>
+                <button onClick={scrollToContact} className="hero-btn">Let us help</button>
             </div>
 
             

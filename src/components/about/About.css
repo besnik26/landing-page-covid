@@ -28,9 +28,13 @@
 }
 .contact-div{
     position: relative;
-    padding-left: 10px;
-    margin-top: 40px;
+    padding: 20px 0px 20px 10px;
+    height: auto;
+    border: none;
+    background-color: #ffffff;
+    color: black;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 .ellipse-abs{

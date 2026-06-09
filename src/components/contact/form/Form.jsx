@@ -58,7 +58,7 @@ function Form() {
       </div>
 
 
-      <button type="submit" className="contact-div">
+      <button type="submit" className="contact-div-form">
         <img src="/ellipse.png" alt="ellipse" className="ellipse-abs" />
         Click to send
         <img src="/arrow.png" alt="arrow" className="arrowImg" />

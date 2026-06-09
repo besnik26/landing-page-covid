@@ -28,6 +28,13 @@ const aboutList = [
 ]
 
 function About (){
+
+    const scrollToContact = ()=>{
+        document.getElementById('contact').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
     return (
         <div className="about">
             
@@ -59,11 +66,11 @@ function About (){
                         ))
                     }
                 </div>
-                <div className='contact-div'>
+                <button className='contact-div' onClick={scrollToContact}>
                     <img src="/ellipse.png" alt="ellipse" className='ellipse-abs'/>
                     Contact us
                     <img src="/arrow.png" alt="arrow" className='arrowImg'/>
-                </div>
+                </button>
             </div>
 
         </div>
